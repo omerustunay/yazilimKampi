@@ -1,0 +1,13 @@
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.csprojAssemblyReference.cache
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.AssemblyInfoInputs.cache
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.AssemblyInfo.cs
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.csproj.CoreCompileInputs.cache
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.exe
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.deps.json
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.runtimeconfig.json
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.runtimeconfig.dev.json
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.dll
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\bin\Debug\netcoreapp3.1\MyDictironary.pdb
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.dll
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.pdb
+C:\Users\omer.ustunay\OneDrive - Doğuş Holding A.Ş\Masaüstü\ClassMetotDemo\MyDictironary\obj\Debug\netcoreapp3.1\MyDictironary.genruntimeconfig.cache
