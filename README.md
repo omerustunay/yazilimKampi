@@ -13,3 +13,6 @@ Bussines, Entities, Abstract kullanılarak katmanlı mimari egzersizi ödevi yap
 Ödev - 7.gün 2.Ödev (ReCapProject)
 Bussines, Entities, DataAccess, UI kullanılarak katmanlı mimari ödevi yapıldı.
 
+Ödev - 8.gün 1.ödev (ReCapProject2)
+Bussines, Entities, DataAccess, UI kullanılarak katmanlı mimari ödevi yapıldı. Ek olarak database olusturuldu. Entityframework yapısı entegre edildi.
+
