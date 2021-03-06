@@ -1,0 +1,27 @@
+CREATE TABLE Colors (
+	"Id" "int" IDENTITY (1, 1) NOT NULL ,
+	"ColorName"  nvarchar (20) NOT NULL,
+	CONSTRAINT "PK_Colors" PRIMARY KEY  CLUSTERED 
+	(
+		"Id"
+	)
+)
+CREATE TABLE Brands (
+	"Id" "int" IDENTITY (1, 1) NOT NULL ,
+	"BrandName"  nvarchar (20) NOT NULL,
+	CONSTRAINT "PK_Brands" PRIMARY KEY  CLUSTERED 
+	(
+		"Id"
+	)
+)
+CREATE TABLE [dbo].[Cars] (
+    [Id]          INT        IDENTITY (1, 1) NOT NULL,
+    [BrandId]     INT        NULL,
+    [ColorId]     INT        NULL,
+    [DailyPrice]  INT        NULL,
+    [Description] NCHAR (40) NULL,
+    [ModelYear]   INT        NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    FOREIGN KEY ([ColorId]) REFERENCES [dbo].[Colors] ([Id]),
+    FOREIGN KEY ([BrandId]) REFERENCES [dbo].[Brands] ([Id])
+)
