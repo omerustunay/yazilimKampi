@@ -16,3 +16,6 @@ Bussines, Entities, DataAccess, UI kullanılarak katmanlı mimari ödevi yapıld
 Ödev - 8.gün 1.ödev (ReCapProject2)
 Bussines, Entities, DataAccess, UI kullanılarak katmanlı mimari ödevi yapıldı. Ek olarak database olusturuldu. Entityframework yapısı entegre edildi.
 
+Ödev - 9.gün 2.ödev (ReCapProject3)
+Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi yapıldı. Dto kavramı ile database tabloları birleştirildi. 
+
