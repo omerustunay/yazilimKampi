@@ -19,3 +19,5 @@ Bussines, Entities, DataAccess, UI kullanılarak katmanlı mimari ödevi yapıld
 Ödev - 9.gün 2.ödev (ReCapProject3)
 Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi yapıldı. Dto kavramı ile database tabloları birleştirildi. 
 
+Ödev - 10.gün 4.ödev (ReCapProject4)
+Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi yapıldı. Bussiness katmanı dinamik yapıya dönüştürüldü.
