@@ -21,3 +21,6 @@ Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi y
 
 Ödev - 10.gün 4.ödev (ReCapProject4)
 Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi yapıldı. Bussiness katmanı dinamik yapıya dönüştürüldü.
+
+Ödev - 11.gün 1.ödev (ReCapProject5)
+Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimariye ek olarak WebAPI katmanı eklendi.
