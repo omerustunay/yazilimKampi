@@ -24,3 +24,6 @@ Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimari ödevi y
 
 Ödev - 11.gün 1.ödev (ReCapProject5)
 Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimariye ek olarak WebAPI katmanı eklendi.
+
+Ödev - 12.gün bütün ödevler (ReCapProject6)
+Autofac, FluentValidation, AOP destekleri eklendi.
