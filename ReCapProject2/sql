@@ -24,4 +24,34 @@ CREATE TABLE [dbo].[Cars] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([ColorId]) REFERENCES [dbo].[Colors] ([Id]),
     FOREIGN KEY ([BrandId]) REFERENCES [dbo].[Brands] ([Id])
-)
+);
+
+
+USE [ReCapProjectDb]
+GO
+
+/****** Object: Table [dbo].[Cars] Script Date: 21.03.2021 16:49:24 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CarImages] (
+    [Id]          INT        IDENTITY (1, 1) NOT NULL,
+    [CarId]     INT        NULL,
+    [ImagePath]  NVARCHAR(MAX)      NULL,
+    [Date] Datetime NULL,
+
+);
+
+
+
+GO
+ALTER TABLE [dbo].[CarImages]
+    ADD CONSTRAINT [PK_CarImages] PRIMARY KEY CLUSTERED ([Id] ASC);
+
+GO
+ALTER TABLE [dbo].[CarImages]
+    ADD CONSTRAINT [FK_CarImages_Car] FOREIGN KEY ([CarId]) REFERENCES [dbo].[Cars] ([Id]);
+
