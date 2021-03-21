@@ -1,3 +1,15 @@
+USE [ReCapProjectDb]
+GO
+
+/****** Object: Table [dbo].[Cars] Script Date: 21.03.2021 16:49:24 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- Table Color
+
 CREATE TABLE Colors (
 	"Id" "int" IDENTITY (1, 1) NOT NULL ,
 	"ColorName"  nvarchar (20) NOT NULL,
@@ -6,6 +18,9 @@ CREATE TABLE Colors (
 		"Id"
 	)
 )
+
+-- Table Brand
+
 CREATE TABLE Brands (
 	"Id" "int" IDENTITY (1, 1) NOT NULL ,
 	"BrandName"  nvarchar (20) NOT NULL,
@@ -14,6 +29,9 @@ CREATE TABLE Brands (
 		"Id"
 	)
 )
+
+-- Table Car
+
 CREATE TABLE [dbo].[Cars] (
     [Id]          INT        IDENTITY (1, 1) NOT NULL,
     [BrandId]     INT        NULL,
@@ -26,16 +44,36 @@ CREATE TABLE [dbo].[Cars] (
     FOREIGN KEY ([BrandId]) REFERENCES [dbo].[Brands] ([Id])
 );
 
+-- Table User
 
-USE [ReCapProjectDb]
-GO
+CREATE TABLE [dbo].[Users] (
+    [Id]        INT           IDENTITY (1, 1) NOT NULL,
+    [FirstName] NVARCHAR (50) NULL,
+    [LastName]  NVARCHAR (50) NULL,
+    [Email]     NVARCHAR (50) NULL,
+    [Password]  NVARCHAR (50) NULL
+);
 
-/****** Object: Table [dbo].[Cars] Script Date: 21.03.2021 16:49:24 ******/
-SET ANSI_NULLS ON
-GO
 
-SET QUOTED_IDENTIFIER ON
-GO
+-- Table Rental 
+
+CREATE TABLE [dbo].[Rentals] (
+    [Id]         INT      IDENTITY (1, 1) NOT NULL,
+    [CarId]      INT      NULL,
+    [CustomerId] INT      NULL,
+    [RentDate]   DATETIME NULL,
+    [ReturnDate] DATETIME NULL
+);
+
+-- Table Customer
+
+CREATE TABLE [dbo].[Customers] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [UserId]      INT           NULL,
+    [CompanyName] NVARCHAR (50) NULL
+);
+
+-- Table CarImage
 
 CREATE TABLE [dbo].[CarImages] (
     [Id]          INT        IDENTITY (1, 1) NOT NULL,
@@ -44,8 +82,6 @@ CREATE TABLE [dbo].[CarImages] (
     [Date] Datetime NULL,
 
 );
-
-
 
 GO
 ALTER TABLE [dbo].[CarImages]
