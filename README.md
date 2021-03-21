@@ -27,3 +27,6 @@ Bussines, Entities, DataAccess, UI, Core kullanılarak katmanlı mimariye ek ola
 
 Ödev - 12.gün bütün ödevler (ReCapProject6)
 Autofac, FluentValidation, AOP destekleri eklendi.
+
+Ödev - 13.gün  (ReCapProject7)
+AOP, servis ile uygulama desteklendi.
