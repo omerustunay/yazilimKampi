@@ -30,3 +30,9 @@ Autofac, FluentValidation, AOP destekleri eklendi.
 
 Ödev - 13.gün  (ReCapProject7)
 AOP, servis ile uygulama desteklendi.
+
+Ödev - 14.gün  (ReCapProject8)
+JWT entegrasyonu yapıldı.
+
+Ödev - 15.gün  (ReCapProject9)
+Cache, Transaction ve Performance aspectleri ekledi.
