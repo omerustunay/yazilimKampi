@@ -1,5 +1,7 @@
 ## Yazılımcı Yetiştirme Kampı Ödevleri
 
+Engin Demiroğ ve ekibinin .Net + Angular kursunda geliştirilen backend projeleri ektedir.
+
 Ödev - 1 (ClassMetotDemo)
 Manager katmanı ile class arasında ekle, listeleme, sil işlemleri yapıldı.
 
